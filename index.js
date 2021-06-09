@@ -9,6 +9,6 @@ function distanceFromHqInBlocks(pickup) {
     {return (hq - pickup)}
 }
 
-function distanceFromHqInFeet(distanceFromHqInBlocks) {
-    return (distanceFromHqInBlocks * feet)
+function distanceFromHqInFeet(blocks) {
+    distanceFromHqInBlocks(blocks)
 }
